@@ -34,7 +34,7 @@ public class Tugaspbo{
             System.out.println("5. Exit");
             System.out.print("Pilih menu: ");
             int menu = scanner.nextInt();
-            scanner.nextLine();  // Consume newline
+            scanner.nextLine();  
 
             switch (menu) {
                 case 1:
@@ -71,7 +71,7 @@ public class Tugaspbo{
         int stok = scanner.nextInt();
         System.out.print("Masukkan stok minimal: ");
         int stok_min = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         try {
             Class.forName(JDBC_DRIVER);
@@ -104,7 +104,7 @@ public class Tugaspbo{
         int stok = scanner.nextInt();
         System.out.print("Masukkan stok minimal baru: ");
         int stok_min = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         try {
             Class.forName(JDBC_DRIVER);
